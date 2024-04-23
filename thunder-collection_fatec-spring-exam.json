@@ -1,0 +1,57 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "fatec-spring-exam",
+    "collectionId": "22deb6a3-ce6c-459d-a9a7-2fbec8ca0581",
+    "dateExported": "2024-04-23T13:39:44.526Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5c985128-30ba-49e1-b019-8f34b78a7ec0",
+            "colId": "22deb6a3-ce6c-459d-a9a7-2fbec8ca0581",
+            "containerId": "",
+            "name": "http://localhost:8080/racao",
+            "url": "http://localhost:8080/racao",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-23T13:38:11.461Z",
+            "modified": "2024-04-23T13:38:11.461Z",
+            "headers": []
+        },
+        {
+            "_id": "5a0f438d-cdb2-4064-80ac-b4ac6b24e11b",
+            "colId": "22deb6a3-ce6c-459d-a9a7-2fbec8ca0581",
+            "containerId": "",
+            "name": "http://localhost:8080/racao",
+            "url": "http://localhost:8080/racao",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-04-23T13:38:24.652Z",
+            "modified": "2024-04-23T13:38:24.652Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"racao 2\",\n  \"estoque\": 5,\n  \"ultimacompra\": \"2024-04-23T13:19:22.640Z\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "126f9121-9dcd-407c-9844-1d6ce61ba06c",
+            "colId": "22deb6a3-ce6c-459d-a9a7-2fbec8ca0581",
+            "containerId": "",
+            "name": "http://localhost:8080/racao/consullta",
+            "url": "http://localhost:8080/racao/consulta",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-23T13:39:07.904Z",
+            "modified": "2024-04-23T13:39:07.904Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"ultimacompra\": \"2024-03-14T23:59:59\",\n  \"estoque\": 5\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "4OEBVR2rDEfLmw_dY6VbDXuR5zjyTf1dQTu3_I3p6kQ7Jmh5nVb1z0ZGbz59zRg75_bT7zRExRf4mMIxyz4O7g"
+}
